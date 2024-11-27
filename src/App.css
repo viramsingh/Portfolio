@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* /* background-image: url('../src/assets/herobg.jpg'); */
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.dark {
+  background-color: #0e1217;
+  color: #fff;
+}
+
