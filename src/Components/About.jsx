@@ -20,14 +20,13 @@ const About = () => {
         >
           Hello! I’m <span className="font-semibold">Viram Singh</span>, a
           passionate and dedicated{" "}
-          <span className="font-semibold">Frontend Developer</span> and{" "}
-          <span className="font-semibold">Full Stack Developer</span> based in
+          <span className="font-semibold">Frontend Developer</span> based in
           India. I specialize in creating dynamic, responsive, and user-centric
           web applications that bring ideas to life. With expertise in{" "}
           <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React.js</b>,{" "}
-          <b>Node.js</b>, <b>Express.js</b>, and <b>MongoDB</b>, I focus on
-          building intuitive, visually appealing, and highly functional digital
-          experiences.
+          <b>Redux</b>, <b>Redux Toolkit</b>, <b>Material-UI (MUI)</b>,{" "}
+          <b>Tailwind CSS</b>, and more, I focus on building intuitive, visually
+          appealing, and highly functional digital experiences.
           <br />
           <br />
           As a <span className="font-semibold">Frontend Developer</span>, I take
@@ -35,6 +34,12 @@ const About = () => {
           that provide exceptional user experiences. My strong foundation in
           modern frontend technologies ensures that every project I deliver is
           optimized, interactive, and aligned with industry best practices.
+          <br />
+          <br />I use tools like <b>Redux</b> and <b>Redux Toolkit</b> for state
+          management, <b>Material-UI (MUI)</b> for efficient UI components, and{" "}
+          <b>Tailwind CSS</b> for utility-first styling. These tools help me
+          build robust, scalable, and maintainable applications with a focus on
+          performance and user engagement.
           <br />
           <br />
           My journey into web development is fueled by my love for

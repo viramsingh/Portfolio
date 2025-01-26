@@ -32,20 +32,20 @@ const Hero = () => {
         <p className="text-xl font-semibold relative uppercase">
           Software Engineer
         </p>
-        <p className="text-lg md:text-l font-medium relative">
-          I&apos;m a Full Stack Developer residing in{" "}
+        <p className="text-lg md:text-xl font-medium relative">
+          I&apos;m a Frontend Engineer specializing in React.js, based in{" "}
           <span className="inline-flex items-center">
             <img src={IndianFlag} alt="Indian Flag" className="h-3 w-auto" />
             INDIA
           </span>
-          , with a strong passion for web development and design. I specialize
-          in creating intuitive, user-friendly interfaces and developing robust
-          backend systems. My expertise includes technologies like HTML, CSS,
-          JavaScript, React.js, Node.js, Express.js, and MongoDB.
-          <br />
+          . Passionate about creating user-friendly web interfaces, I specialize
+          in HTML, CSS, JavaScript, and React.js. I focus on clean code,
+          reusable components, and optimized performance to deliver seamless
+          digital experiences. Staying updated with the latest trends, I bridge
+          design and functionality to craft impactful solutions.
         </p>
 
-        <div className="flex flex-row justify-center md:justify-normal gap-4 md:gap-6 mt-5">
+        <div className="flex flex-row justify-center md:justify-normal gap-4 md:gap-6">
           <Link to="/about">
             <Button
               variant="gradient"
@@ -57,7 +57,7 @@ const Hero = () => {
             </Button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1gATnzHud8C6MN8uI32PZxAyYps5asjo9/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1fnddFibi4wLNiy5Lb4ljdocmuZ4NA5-d/view"
             target="_blank"
             rel="noreferrer"
           >

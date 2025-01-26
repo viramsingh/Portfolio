@@ -2,22 +2,22 @@ import { Tooltip } from "@material-tailwind/react";
 
 const Data = [
   {
-    link: "https://www.linkedin.com/in/beingashusoni/",
+    link: "https://www.linkedin.com/in/viram-singh-sisodiya-2730aa225/",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
     tooltip: "Connect On Linkedin",
   },
   {
-    link: "https://github.com/beingashusoni",
+    link: "https://github.com/viramsingh/",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     tooltip: "Connect On Github",
   },
   {
-    link: "https://twitter.com/beingashusoni",
+    link: "https://wa.me/9131892828/",
     icon: "https://cdn.iconscout.com/icon/free/png-512/free-twitter-9420782-7651212.png?f=webp&w=256",
-    tooltip: "Follow On X",
+    tooltip: "Connect with Whatsapp",
   },
   {
-    link: "mailto:mailto:iamashuarya786@gmail.com",
+    link: "mailto:viramsinghsisodiya7@gmail.com",
     icon: "https://cdn.iconscout.com/icon/free/png-512/free-mail-1299-1100772.png?f=webp&w=256",
     tooltip: "Mail Us",
   },

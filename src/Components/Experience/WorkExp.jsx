@@ -94,10 +94,8 @@ const WorkExp = () => {
                 Codes For Tomorrow - Indore
               </Typography>
               <Typography className=" my-2" color={darkMode ? "white" : "gray"}>
-                <span style={{ fontWeight: "bold" }}>
-                  React Js Developer Internship
-                </span>{" "}
-                <br /> Spet 2024 - Nov 2024{" "}
+                <span style={{ fontWeight: "bold" }}>React Js Developer</span>{" "}
+                <br /> Spet 2024 - Persent{" "}
               </Typography>
             </div>
           </TimelineHeader>
