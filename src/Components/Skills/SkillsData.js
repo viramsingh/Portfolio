@@ -1,7 +1,7 @@
 export const LanguageSkills = [
   {
     name: "C",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1853px-C_Programming_Language.svg.png",
   },
   {
     name: "C++",

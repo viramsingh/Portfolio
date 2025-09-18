@@ -5,7 +5,6 @@ import { MdOutlineDocumentScanner } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import {
   AiFillTwitterCircle,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
@@ -30,19 +29,22 @@ const Hero = () => {
           <span className="text-red-600 ml-4 uppercase">Viram Singh</span>
         </p>
         <p className="text-xl font-semibold relative uppercase">
-          Software Engineer
+          Frontend Engineer
         </p>
         <p className="text-lg md:text-xl font-medium relative">
-          I&apos;m a Frontend Engineer specializing in React.js, based in{" "}
+          I&apos;m a Frontend Engineer with{" "}
+          <span className="font-semibold">1 year of experience</span>{" "}
+          specializing in React.js, based in{" "}
           <span className="inline-flex items-center">
             <img src={IndianFlag} alt="Indian Flag" className="h-3 w-auto" />
             INDIA
           </span>
-          . Passionate about creating user-friendly web interfaces, I specialize
-          in HTML, CSS, JavaScript, and React.js. I focus on clean code,
-          reusable components, and optimized performance to deliver seamless
-          digital experiences. Staying updated with the latest trends, I bridge
-          design and functionality to craft impactful solutions.
+          . I build modern, responsive, and user-friendly web applications using{" "}
+          <b>HTML</b>, <b>CSS</b>, <b>JavaScript (ES6+)</b>, and <b>React.js</b>
+          . I focus on clean code, reusable components, and optimized
+          performance to deliver seamless digital experiences. Staying updated
+          with the latest frontend trends, I bridge design and functionality to
+          craft impactful solutions.
         </p>
 
         <div className="flex flex-row justify-center md:justify-normal gap-4 md:gap-6">
@@ -57,7 +59,7 @@ const Hero = () => {
             </Button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1fnddFibi4wLNiy5Lb4ljdocmuZ4NA5-d/view"
+            href="https://drive.google.com/file/d/1Emskv42XhihOyWmM5ejQxcVf3NOCLJ6C/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

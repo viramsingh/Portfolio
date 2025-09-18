@@ -25,14 +25,16 @@ const ProjectCard = ({ title, img, live, github, techstack }) => {
             <BiLinkExternal size={24} />
           </Link>
 
-          <Link
-            to={github}
-            target="_blank"
-            className="bg-white text-black p-3 rounded-full hover:bg-black hover:text-white transition-all flex items-center justify-center"
-            aria-label="GitHub"
-          >
-            <FaGithub size={24} />
-          </Link>
+          {github && (
+            <Link
+              to={github}
+              target="_blank"
+              className="bg-white text-black p-3 rounded-full hover:bg-black hover:text-white transition-all flex items-center justify-center"
+              aria-label="GitHub"
+            >
+              <FaGithub size={24} />
+            </Link>
+          )}
         </div>
       </div>
 

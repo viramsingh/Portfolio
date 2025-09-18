@@ -12,20 +12,35 @@ import CrudIMG from "./ProjectImg/Project11.png";
 import SpotifyIMG from "./ProjectImg/Project12.png";
 import TodoIMG from "./ProjectImg/Project13.png";
 import BlogIMG from "./ProjectImg/Project14.png";
+import Sinnaz from "./ProjectImg/Sinnaz.png";
+import lottery from "./ProjectImg/lottery.png";
+import shiv247 from "./ProjectImg/shiv247.png";
 
 export const MernProjectData = [
   {
-    img: FruitMartImg,
-    title: "FruitMart Web",
-    techstack: "React.js, Tailwind CSS, Redux-ToolKit",
-    live: "https://fruitemart.netlify.app/",
-    github: "https://github.com/viramsingh/Fruitmart",
+    img: lottery,
+    title: "90x Lottery Platform",
+    techstack: "React.js, javaScript, HTML, CSS",
+    live: "https://lottery.insoftdemo.site/",
   },
 
   {
+    img: shiv247,
+    title: "Shiv247 Betting Platform",
+    techstack: "React.js, javaScript, HTML, CSS",
+    live: "https://shiv247.com/",
+  },
+
+  {
+    img: Sinnaz,
+    title: "Sinnaz Life Insurance Platform",
+    techstack: "React.js,javaScript, HTML, CSS",
+    live: "https://strapi-projects.simplicityniw.com/",
+  },
+  {
     img: RichlottosImg,
     title: "Richlottos Lottery",
-    techstack: "React.JS, Node.JS, MongoDB, Express.JS",
+    techstack: "React.JS, javaScript, HTML, CSS",
     live: "https://richlottos.com/",
     github: "https://github.com/viramsingh",
   },
@@ -36,6 +51,14 @@ export const MernProjectData = [
     live: "https://fruitemart.netlify.app/",
     github: "https://github.com/viramsingh/Fruitmart",
   },
+  {
+    img: FruitMartImg,
+    title: "FruitMart Web",
+    techstack: "React.js, Tailwind CSS, Redux-ToolKit",
+    live: "https://fruitemart.netlify.app/",
+    github: "https://github.com/viramsingh/Fruitmart",
+  },
+
   {
     img: BlogIMG,
     title: "Blog App",

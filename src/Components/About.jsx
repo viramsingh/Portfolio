@@ -21,19 +21,23 @@ const About = () => {
           Hello! I’m <span className="font-semibold">Viram Singh</span>, a
           passionate and dedicated{" "}
           <span className="font-semibold">Frontend Developer</span> based in
-          India. I specialize in creating dynamic, responsive, and user-centric
-          web applications that bring ideas to life. With expertise in{" "}
-          <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React.js</b>,{" "}
-          <b>Redux</b>, <b>Redux Toolkit</b>, <b>Material-UI (MUI)</b>,{" "}
-          <b>Tailwind CSS</b>, and more, I focus on building intuitive, visually
-          appealing, and highly functional digital experiences.
+          India with <span className="font-semibold">1 year of experience</span>{" "}
+          in building modern web applications. I specialize in creating dynamic,
+          responsive, and user-centric solutions that bring ideas to life. With
+          expertise in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>,{" "}
+          <b>React.js</b>, <b>Redux</b>, <b>Redux Toolkit</b>,{" "}
+          <b>Material-UI (MUI)</b>, <b>Tailwind CSS</b>, and more, I focus on
+          building intuitive, visually appealing, and highly functional digital
+          experiences.
           <br />
           <br />
-          As a <span className="font-semibold">Frontend Developer</span>, I take
-          pride in crafting pixel-perfect designs and seamless user interfaces
-          that provide exceptional user experiences. My strong foundation in
-          modern frontend technologies ensures that every project I deliver is
-          optimized, interactive, and aligned with industry best practices.
+          Over the past year, I’ve contributed to{" "}
+          <span className="font-semibold">
+            developing dashboards, CRUD-based applications, and API integrations
+          </span>
+          , ensuring seamless user experiences and optimized performance. I take
+          pride in crafting pixel-perfect designs and interactive interfaces
+          that align with industry best practices.
           <br />
           <br />I use tools like <b>Redux</b> and <b>Redux Toolkit</b> for state
           management, <b>Material-UI (MUI)</b> for efficient UI components, and{" "}
@@ -42,7 +46,7 @@ const About = () => {
           performance and user engagement.
           <br />
           <br />
-          My journey into web development is fueled by my love for
+          My journey as a Frontend Developer is driven by a love for
           problem-solving and innovation. Whether it's designing intuitive user
           interfaces, optimizing performance, or ensuring cross-platform
           compatibility, I approach every challenge with creativity, attention

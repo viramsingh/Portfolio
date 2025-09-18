@@ -43,7 +43,7 @@ const WorkExp = () => {
                 <span style={{ fontWeight: "bold" }}>
                   Web Development Internship
                 </span>{" "}
-                <br /> June'2023 - Sept'2023
+                <br /> June 2023 - Sept 2023
               </Typography>
             </div>
           </TimelineHeader>
@@ -94,8 +94,71 @@ const WorkExp = () => {
                 Codes For Tomorrow - Indore
               </Typography>
               <Typography className=" my-2" color={darkMode ? "white" : "gray"}>
+                <span style={{ fontWeight: "bold" }}>
+                  React Js Developer Internship
+                </span>{" "}
+                <br /> May 2024 - August 2024{" "}
+              </Typography>
+            </div>
+          </TimelineHeader>
+          <TimelineBody className="pb-8">
+            <ul
+              className={`list-disc font-sans ml-5 ${
+                darkMode ? "text-white" : "text-gray-800"
+              }`}
+            >
+              <li>
+                Assisted in developing responsive user interfaces using
+                React.js, HTML5, CSS3, and JavaScript (ES6+).
+              </li>
+              <li>
+                Contributed to building reusable components and learned best
+                practices for writing clean and maintainable code.
+              </li>
+              <li>
+                Collaborated with senior developers to integrate RESTful APIs
+                and handle dynamic data within applications.
+              </li>
+              <li>
+                Gained hands-on experience with React Hooks and state management
+                tools like Redux Toolkit and Context API.
+              </li>
+              <li>
+                Supported debugging and bug-fixing efforts, improving
+                application stability and performance.
+              </li>
+              <li>
+                Worked with UI frameworks like Bootstrap, Tailwind CSS, and
+                Material-UI to design user-friendly layouts.
+              </li>
+              <li>
+                Learned agile development practices, participated in code
+                reviews, and improved problem-solving skills through real
+                project exposure.
+              </li>
+            </ul>
+          </TimelineBody>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineConnector />
+          <TimelineHeader>
+            <TimelineIcon className="p-0 hover:scale-105 duration-200">
+              <a
+                href="https://www.codesfortomorrow.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Avatar size="lg" src={CFTImage} alt="Codes For Tommorow" />
+              </a>
+            </TimelineIcon>
+            <div className="flex flex-col">
+              <Typography variant="h5" color={darkMode ? "white" : "blue-gray"}>
+                Codes For Tomorrow - Indore
+              </Typography>
+              <Typography className=" my-2" color={darkMode ? "white" : "gray"}>
                 <span style={{ fontWeight: "bold" }}>React Js Developer</span>{" "}
-                <br /> Spet 2024 - Persent{" "}
+                <br /> Augutst 2024 - August 2025{" "}
               </Typography>
             </div>
           </TimelineHeader>
@@ -137,47 +200,6 @@ const WorkExp = () => {
             </ul>
           </TimelineBody>
         </TimelineItem>
-        {/* 
-        <TimelineItem>
-          <TimelineHeader>
-            <TimelineConnector />
-            <TimelineIcon className="p-0 hover:scale-105 duration-200">
-              <a
-                href="https://www.droliafresh.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Avatar size="lg" src={DroliaFreshImage} alt="droliafresh" />
-              </a>
-            </TimelineIcon>
-            <div className="flex flex-col">
-              <Typography variant="h5" color={darkMode ? "white" : "blue-gray"}>
-                DroliaFresh - Patna
-              </Typography>
-              <Typography className=" my-2" color={darkMode ? "white" : "gray"}>
-                <span style={{ fontWeight: "bold" }}>Web Developer Intern</span>{" "}
-                <br /> May'2023 - Jul'2023
-              </Typography>
-            </div>
-          </TimelineHeader>
-          <TimelineBody className="pb-8">
-            <ul
-              className={`list-disc font-sans ml-5 ${
-                darkMode ? "text-white" : "text-gray-800"
-              }`}
-            >
-              <li>
-                Crafted the organization's website, boosting traffic by 25% and
-                user engagement by 10% after launch.
-              </li>
-              <li>
-                Produced captivating social and graphic content, boosting
-                engagement by 40%, expanding reach by 15%, and elevating brand
-                recognition by 25%, with a 10% increase in campaign conversions.
-              </li>
-            </ul>
-          </TimelineBody>
-        </TimelineItem> */}
       </Timeline>
     </div>
   );
